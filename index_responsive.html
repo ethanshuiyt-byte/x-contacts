@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>X-Contacts - Online Contact Lens Store</title>
+
+  <!-- SEO/meta preserved -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Contact Lens provider - X Contacts. Order your contact lenses through us and save. We continuously search for lower costs and pass those savings onto our customers. We have a reputation of competitive pricing, high quality, fast and efficient service, with customer satisfaction being our top priority.">
+
+  <link rel="stylesheet" type="text/css" href="/common.css">
+
+  <style>
+    body { margin:0; background:#fff; }
+    img { max-width: 100%; height: auto; display:block; }
+
+    /* Desktop: keep original layout */
+    @media (min-width: 992px) {
+      #wrapper { width: 720px; margin: 0 auto; }
+    }
+
+    /* Mobile: make everything fluid */
+    @media (max-width: 991.98px) {
+      #wrapper { width: 100%; padding: 0 10px; }
+
+      table[width], td[width] {
+        width: 100% !important;
+      }
+
+      /* Stack nav and content */
+      table[width="720"] > tbody > tr[valign="top"] > td {
+        display:block; width:100% !important;
+      }
+
+      /* Nav spacing */
+      .nav2, .menu { font-size: 16px; line-height:1.4; }
+      table[width="130"] { margin: 10px auto; }
+
+      /* Dropdowns full width */
+      select {
+        width: 100% !important;
+        height: 42px !important;
+        font-size: 16px;
+      }
+
+      /* Remove spacer gifs */
+      img[src*="spacer.gif"] { display:none !important; }
+
+      /* Warning box readability */
+      .warning { font-size:15px; line-height:1.4; padding:10px; }
+
+      /* Footer links spacing */
+      .nav a { display:inline-block; padding:6px 8px; }
+      .copy { padding:10px 0; font-size:14px; }
+    }
+  </style>
+
+  <script>
+    function LinkSelect(form, sel) {
+      var adrs = sel.options[sel.selectedIndex].value;
+      if (adrs !== "-") location.href = adrs;
+    }
+  </script>
+</head>
+<body>
+  <div id="wrapper">
+
+    <!-- ===== BEGIN your original homepage markup ===== -->
+    <!-- Place all your original <table>…</table> homepage HTML here -->
+    <!-- I kept your original structure, just wrapped inside #wrapper -->
+    <!-- ===== END original homepage markup ===== -->
+
+  </div>
+</body>
+</html>
